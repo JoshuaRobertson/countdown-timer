@@ -1,4 +1,4 @@
-# :musical_note: JS Countdown Timer
+# :alarm_clock: JS Countdown Timer
 
 Designed in HTML & CSS, developed in JavaScript.
 
