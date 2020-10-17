@@ -19,6 +19,7 @@ function timer(seconds) {
     // Check if the countdown should stop
     if (secondsLeft < 0) {
       clearInterval(countdown)
+      notify("Time's Up!", "Your timer has ended.")
       return
     }
 
@@ -48,6 +49,14 @@ function displayEndTime(timestamp) {
 function startTimer() {
   const seconds = parseInt(this.dataset.time)
   timer(seconds)
+}
+
+function notify(title, body) {
+  if (typeof process !== 'undefined') {
+    const myNotification = new Notification(title, {
+      body: body
+    })
+  }
 }
 
 buttons.forEach(button => button.addEventListener('click', startTimer))

@@ -1,3 +1,12 @@
 # Generated files #
 ######################
 .DS_Store
+
+
+# Node/NPM #
+######################
+node_modules
+
+# Electron #
+######################
+out/
