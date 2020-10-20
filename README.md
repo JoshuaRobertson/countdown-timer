@@ -32,7 +32,7 @@ $ npm run package
 
 Your app should now be available inside of **out/countdown-timer-**
 
-###Having issues?
+### Having issues?
 You might need to simply import Electron Forge first
 
 See: https://www.electronjs.org/docs/tutorial/quick-start#package-and-distribute-the-application
