@@ -12,7 +12,7 @@ This can be run inside a browser or as a desktop app using Electron.
 
 [Try it out](https://joshuarobertson.github.io/countdown-timer/)
 
-## :iphone: Builing & running the app
+## :iphone: Building & running the app
 
 Setup local development for building and shipping an app:
 
